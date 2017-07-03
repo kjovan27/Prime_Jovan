@@ -1,4 +1,6 @@
 def is_prime(number):
+    if type(number) != int:
+        return False
     if number <= 0:
         return False
     if number in (0, 1):
